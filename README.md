@@ -8,6 +8,8 @@ Flood fill/fit video elements to their container.
 
 ## Usage
 
+See a [demo here](http://latentflip.com/flood-video)
+
 ### floodVideo(wrapperElement, videoElement, [options])
 
 * options:
