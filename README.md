@@ -1,8 +1,30 @@
 # flood-video
 
-Flood fill/fit video elements to their container.
+Sometimes you have a video,
+And sometimes you have a box.
+And sometimes, you want the video to go in the box.
+
+But sometimes, the video, and the box, are not quite the same shape,
+So you don't want there to be space around the video,
+But you don't want peoples faces to be made too fat, or too thin,
+just to make there not be space around the video,
+in the box.
+
+It's like you want to say,
+Take this video, and just, FILL THE FREAKING BOX WITH IT.
+But not too much, because sometimes, the box is very narrow,
+So you want to take the video, and just,
+FILL THE BOX BUT NOT SO MUCH THAT I CAN ONLY SEE A LITTLE BIT OF THE VIDEO, DO IT SENSIBLY OMG.
+
+If that sounds like you,
+then this module,
+_might_ make you happy.
+
+![](example.png)
 
 ## Installation
+
+Works with browserify.
 
 `npm install flood-video --save`
 
