@@ -1,0 +1,54 @@
+<head>
+  <script src='demo.bundle.js'></script>
+  <style>
+    body {
+      font-family: Helvetica, sans-serif;
+    }
+
+    .wrappers {
+      text-align: center;
+    }
+
+    .wrapper-1 {
+      width: 10%;
+      height: 30%;
+    }
+
+    .wrapper-2 {
+      width: 30%;
+      height: 20%;
+      margin-left: 5%;
+    }
+
+    .wrapper-1, .wrapper-2 {
+      overflow: hidden;
+      outline: 1px black solid;
+      display: inline-block;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+  <div class='wrappers'>
+    <div class='wrapper-1'>
+      <video></video>
+    </div>
+
+    <div class='wrapper-2'>
+      <video></video>
+    </div>
+  </div>
+
+  <h3>Options:</h3>
+  <ul>
+    <li>
+      <label>minVisibleHeight <input name=minVisibleHeight type=range min=0 max=1 value=0.5 step=0.05></label>
+      (Only affects the video if the container is relatively short compared to the video)
+    </li>
+    <li>
+      <label>minVisibleWidth <input name=minVisibleWidth type=range min=0 max=1 value=0.5 step=0.05></label>
+      (Only affects the video if the container is relatively narrow compared to the video)
+    </li>
+  </ul>
+
+</body>

@@ -1,0 +1,27 @@
+.flood-video {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.flood-video--fit-height {
+  max-height: none;
+  height: 100%;
+  width: auto;
+  min-width: 100%;
+  max-width: 100%;
+  -webkit-transition: max-height 100ms linear, max-width 100ms linear;
+          transition: max-height 100ms linear, max-width 100ms linear;
+}
+
+.flood-video--fit-width {
+  max-width: none;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  max-height: 100%;
+}
